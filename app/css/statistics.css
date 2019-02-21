@@ -4,10 +4,33 @@
   .statistics .statistics__img {
     width: 100%; }
 
+.statistics__col_without-right-padding {
+  padding-right: 0;
+  padding-left: 0; }
+
 .statistics__get-cons-text .statistics__get-cons-header {
-  font-size: 24px; }
+  font-size: 24px;
+  color: #000000; }
 
 .statistics__get-cons-text .statistics__get-cons-descrip {
-  font-size: 16px; }
-  .statistics__get-cons-text .statistics__get-cons-descrip:nth-child(2) {
-    color: #000000; }
+  font-size: 16px;
+  font-style: italic; }
+
+.statistics__get-cons-form fieldset {
+  font-style: italic;
+  color: #000000; }
+
+.statistics__get-cons-form textarea {
+  width: 100%; }
+  .statistics__get-cons-form textarea::-webkit-input-placeholder {
+    font-style: italic;
+    text-align: left; }
+  .statistics__get-cons-form textarea:-ms-input-placeholder {
+    font-style: italic;
+    text-align: left; }
+  .statistics__get-cons-form textarea::-ms-input-placeholder {
+    font-style: italic;
+    text-align: left; }
+  .statistics__get-cons-form textarea::placeholder {
+    font-style: italic;
+    text-align: left; }

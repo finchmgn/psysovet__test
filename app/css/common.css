@@ -61,6 +61,11 @@
   font-style: italic; }
 
 /*  общие стили  */
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #5e5e5e; }
+
 .ps-container {
   width: 100%;
   padding-right: 0;

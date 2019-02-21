@@ -20,25 +20,54 @@
     <section class="statistics">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-                    <img class="statistics__img" src="img/statistics/statistics__man.png" alt="Консультация психолога онлайн" />
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 statistics__col_without-right-padding">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 order-xl-12 order-lg-12 statistics__col_without-padding">
                     <div class="statistics__get-cons">
                         <div class="statistics__get-cons-text">
-                            <p class="statistics__get-cons-header">Консультация психолога онлайн</p>
+                            <p class="statistics__get-cons-header">Консультации психолога онлайн</p>
                             <p class="statistics__get-cons-descrip">На Псисовет Вы получите полноценную консультацию психолога онлайн. Бесплатная психологическая помощь возможна в публичной переписке, в порядке очереди. Доступны платные консультации в которых Вы получите более быстрый ответ в приватном разделе. </p>
                         </div>
                         <div class="statistics__get-cons-form-block">
                             <form class="statistics__get-cons-form">
                                 <fieldset>Психологи консультируют анонимно, онлайн, 24 часа в сутки!</fieldset>
-                                <textarea rows="5" placeholder="Опишите пожалуйста, свой вопрос психологу более подробно. В том числе: имя, возраст, семейное положение..."></textarea>
+                                <textarea placeholder="Опишите пожалуйста, свой вопрос психологу более подробно. В том числе: имя, возраст, семейное положение..."></textarea>
+                                <button class="btn btn-success-light">Получите консультацию прямо сейчас</button>
                             </form>
                         </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 order-md-1 order-lg-1 align-self-end">
+                    <img class="statistics__img" src="img/statistics/statistics__man.png" alt="Консультация психолога онлайн" />
+                </div>
+            </div>
+        </div>
+        <div class="statistics__tabs-block">
+            <div class="statistics__tabs">
+                <div class="ps-container">
+                    <ul class="nav nav-tabs statistics__tabs-nav" id="statisticsTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="statistics__forum-tab" data-toggle="tab" href="#statistics__forum" role="tab" aria-controls="statistics__forum" aria-selected="true">ФОРУМ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="statistics__psych-tab" data-toggle="tab" href="#statistics__psych" role="tab" aria-controls="statistics__psych" aria-selected="false">ПСИХОЛОГИ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ps-container">
+                <div class="tab-content" id="statisticsTabsContent">
+                    <div class="tab-pane fade show active" id="statistics__forum" role="tabpanel" aria-labelledby="statistics__forum-tab">
+                        ФОРУМ
+                    </div>
+                    <div class="tab-pane fade" id="statistics__psych" role="tabpanel" aria-labelledby="statistics__psych-tab">
+                        ПСИХОЛОГИ
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+<!--    scripts    -->
+<script src="js/libs.min.js"></script>
+
 </body>
 </html>

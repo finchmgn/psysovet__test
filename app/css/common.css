@@ -64,7 +64,21 @@
 body {
   font-family: 'Open Sans';
   font-weight: 400;
+  font-size: 16px;
   color: #5e5e5e; }
+
+.btn-success-light {
+  background-color: #4cae51;
+  color: #f9f9f9;
+  padding: 6px 30px 7px 30px; }
+  .btn-success-light:hover {
+    background-color: #47a34c;
+    color: #f9f9f9; }
+
+@media (max-width: 991px) {
+  .btn-success-light {
+    display: block;
+    width: 100%; } }
 
 .ps-container {
   width: 100%;

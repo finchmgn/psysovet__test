@@ -74,6 +74,7 @@ gulp.task('img', function() {
 /*   Наблюдение за изменениями в файлах   */
 gulp.task('watch', function() {
     gulp.watch('app/sass/**/*.+(sass|scss)', gulp.parallel('sass'));
+    gulp.watch('app/libs/bootstrap/dist/css/bootstrap.css').on('change', browserSync.reload);
     gulp.watch('app/*.html').on('change', browserSync.reload);
     gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 });

@@ -1,26 +1,61 @@
 .statistics
-    background-color: #d6dae0
+    background-color: #d4d8df
+    background: -moz-linear-gradient(top, #d4d8df 0%, #e9edf3 100%)
+    background: -webkit-linear-gradient(top, #d4d8df 0%,#e9edf3 100%)
+    background: linear-gradient(to bottom, #d4d8df 0%,#e9edf3 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d8df', endColorstr='#e9edf3',GradientType=0 )
     padding-top: 30px
     .statistics__img
         width: 100%
-.statistics__col_without-right-padding
-    padding-right: 0
-    padding-left: 0
+        padding-right: 15px
 
-.statistics__get-cons-text
-    .statistics__get-cons-header
-        font-size: 24px
-        color: #000000
-    .statistics__get-cons-descrip 
-        font-size: 16px
-        font-style: italic
+@media (max-width: 575px)
+    .statistics
+        .statistics__img
+            padding-right: 0px
+            margin-top: 30px
+
+.statistics__col_without-padding
+    padding: 0
+
+@media (max-width: 575px)
+    .statistics__col_without-padding
+        padding: 0 15px
+
+.statistics__get-cons
+    margin-bottom: 30px
+    .statistics__get-cons-text
+        .statistics__get-cons-header
+            font-size: 24px
+            font-weight: 600
+            color: #000000
+        .statistics__get-cons-descrip 
+            font-style: italic
 
 .statistics__get-cons-form
     fieldset
         font-style: italic
         color: #000000
+        margin-bottom: 12px
     textarea
         width: 100%
+        height: 100px
+        padding: 12px 20px 5px 15px
+        margin-bottom: 15px
         &::placeholder
             font-style: italic
-            text-align: left    
+            text-align: left
+            color: #8f8f8f
+            line-height: 20px
+
+.statistics__tabs
+    height: 38px
+    background-color: #708cbb
+
+.statistics__tabs-nav
+    margin: 0 30px
+
+@media (min-width: 992px)
+    .statistics__tabs-nav
+        margin: 0 70px
+

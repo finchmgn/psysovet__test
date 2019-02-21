@@ -21,12 +21,12 @@ gulp.task('sass', function() {
 });
 
 /*  сжатие css-файлов библиотек | добавление суффикса  */
-gulp.task('css-libs', function() {
+/*gulp.task('css-libs', function() {
     return gulp.src('app/css/libs.css')
     .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('app/css'));
-});
+});*/
 
 /*  сжатие js-файлов библиотек в один файл libs.min.js  */
 gulp.task('scripts', function() {
@@ -80,7 +80,7 @@ gulp.task('watch', function() {
 
 /*  Компиляция кода  */
 gulp.task('buildcode', async function() {
-    var buildcss    = gulp.src(['app/css/*.css', 'app/css/libs.min.css']).pipe(gulp.dest('dist/css'));
+    var buildcss    = gulp.src(['app/css/*.css', 'app/css/libs.css']).pipe(gulp.dest('dist/css'));
     var buildfonts  = gulp.src(['app/fonts/**/*']).pipe(gulp.dest('dist/fonts'));
     var buildjs     = gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
     var buildhtml   = gulp.src('app/*.html').pipe(gulp.dest('dist'));
@@ -90,4 +90,5 @@ gulp.task('buildcode', async function() {
 gulp.task('build', gulp.parallel('clean', 'buildcode', 'img'));
 
 /*  Таск на режим разработки  */
-gulp.task('dev', gulp.parallel('browser-sync', 'sass', 'css-libs', 'scripts', 'watch'));
+/*gulp.task('dev', gulp.parallel('browser-sync', 'sass', 'css-libs', 'scripts', 'watch'));*/
+gulp.task('dev', gulp.parallel('browser-sync', 'sass', 'scripts', 'watch'));

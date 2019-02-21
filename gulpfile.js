@@ -32,7 +32,7 @@ gulp.task('css-libs', function() {
 gulp.task('scripts', function() {
     return gulp.src([
         'app/libs/jquery/dist/jquery.min.js',
-        'app/libs/bootstrap-4.2.1-dist/js/bootstrap.min.js'
+        'app/libs/bootstrap/dist/js/bootstrap.min.js'
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

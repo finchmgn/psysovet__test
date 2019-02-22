@@ -32,7 +32,8 @@ gulp.task('sass', function() {
 gulp.task('scripts', function() {
     return gulp.src([
         'app/libs/jquery/dist/jquery.min.js',
-        'app/libs/bootstrap/dist/js/bootstrap.min.js'
+        'app/libs/bootstrap/dist/js/bootstrap.min.js',
+        'app/libs/jquery.rating-2.0.min.js'
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

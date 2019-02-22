@@ -17,3 +17,10 @@ $(document).ready(function(){
         }
     });
 });
+
+
+   $(function() {
+      $('#example').barrating('show',{
+        theme: 'fontawesome-stars'
+      });
+   });

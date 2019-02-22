@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/reviews.css">
     <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="libs/jquery-bar-rating/dist/themes/fontawesome-stars.css">
 </head>
 <body>
     <header>
@@ -149,7 +150,16 @@
                     </div>
                     <div class="col-xl-4">
                         <p>Стаж <span class="reviews__carousel-psyhologist-exp">10 лет</span></p>
-                        <p class="reviews__carousel-psyhologist-rating"></p>
+                        <div class=" reviews__carousel-psyhologist-rating">
+                            <select id="example">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -162,6 +172,8 @@
 <script src="js/libs.min.js"></script>
 <script src="js/common.js"></script>
 <script src="libs/owl.carousel/dist/owl.carousel.js"></script>
+<script src="libs/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+
 
 
 </body>

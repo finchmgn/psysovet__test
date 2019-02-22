@@ -48,6 +48,10 @@
             color: #8f8f8f
             line-height: 20px
 
+.statistics__tabs-block
+    background-color: #ffffff
+    border-bottom: 1px solid #dddddd
+
 .statistics__tabs
     height: 38px
     background-color: #708cbb
@@ -59,3 +63,93 @@
     .statistics__tabs-nav
         margin: 0 70px
 
+.statistics__tabs-link
+    text-transform: uppercase
+    color: #ffffff
+    text-decoration: underline
+    transition: color 0.2s ease-in
+    &:hover
+        color: #dddddd
+
+.statistics__tabs-link.active
+    color: #214e9b
+    text-decoration: none
+    transition: color 0.2s ease-in
+
+.statistics__tab-content
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    align-content: center
+    align-items: stretch
+    .statistics__tab-content-item
+        order: 0
+        flex: 0 1 auto
+        align-self: auto
+        padding-top: 45px
+        padding-bottom: 45px
+        padding-right: 34px
+        /*  half height border styles  */
+        position: relative
+        border-right: 1px solid #dddddd
+        &:after
+            content: ""
+            display: block
+            width: 1px
+            height: 49%
+            padding: 0
+            margin: 0
+            background-color: white
+            position: absolute
+            top: 0
+            right: -1px
+        &:nth-child(4)
+            border-right: none    
+        .statistics__tab-content-item_top
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: flex-start
+            align-content: center
+            align-items: center
+            margin-bottom: 5px
+            p
+                display: inline-block
+                color: #708cbb
+                font-size: 30px
+                margin-bottom: 0
+            img
+                display: inline-block
+                height: 28px
+                margin-bottom: 0
+                margin-left: 20px
+
+@media (min-width: 992px) and (max-width: 1199px)
+    .statistics__tab-content
+        .statistics__tab-content-item
+            padding-right: 22px
+@media (min-width: 576px) and (max-width: 991px)
+    .statistics__tab-content
+        .statistics__tab-content-item
+            width: 50%
+            text-align: center
+            border-right: none
+            padding-right: 0
+            .statistics__tab-content-item_top
+                display: block
+                margin: auto auto -12px auto
+                img
+                    margin-bottom: 20px
+
+@media (max-width: 575px)
+    .statistics__tab-content
+        .statistics__tab-content-item
+            width: 100%
+            text-align: center
+            padding-right: 0
+            .statistics__tab-content-item_top
+                display: block
+                margin: auto auto -12px auto
+                img
+                    margin-bottom: 20px

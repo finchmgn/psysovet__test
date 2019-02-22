@@ -62,6 +62,10 @@
     color: #8f8f8f;
     line-height: 20px; }
 
+.statistics__tabs-block {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd; }
+
 .statistics__tabs {
   height: 38px;
   background-color: #708cbb; }
@@ -72,3 +76,138 @@
 @media (min-width: 992px) {
   .statistics__tabs-nav {
     margin: 0 70px; } }
+
+.statistics__tabs-link {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: underline;
+  -webkit-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in; }
+  .statistics__tabs-link:hover {
+    color: #dddddd; }
+
+.statistics__tabs-link.active {
+  color: #214e9b;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in; }
+
+.statistics__tab-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .statistics__tab-content .statistics__tab-content-item {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+            align-self: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 34px;
+    /*  half height border styles  */
+    position: relative;
+    border-right: 1px solid #dddddd; }
+    .statistics__tab-content .statistics__tab-content-item:after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 49%;
+      padding: 0;
+      margin: 0;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      right: -1px; }
+    .statistics__tab-content .statistics__tab-content-item:nth-child(4) {
+      border-right: none; }
+    .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 5px; }
+      .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top p {
+        display: inline-block;
+        color: #708cbb;
+        font-size: 30px;
+        margin-bottom: 0; }
+      .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top img {
+        display: inline-block;
+        height: 28px;
+        margin-bottom: 0;
+        margin-left: 20px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .statistics__tab-content .statistics__tab-content-item {
+    padding-right: 22px; } }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .statistics__tab-content .statistics__tab-content-item {
+    width: 50%;
+    text-align: center;
+    border-right: none;
+    padding-right: 0; }
+    .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top {
+      display: block;
+      margin: auto auto -12px auto; }
+      .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top img {
+        margin-bottom: 20px; } }
+
+@media (max-width: 575px) {
+  .statistics__tab-content .statistics__tab-content-item {
+    width: 100%;
+    text-align: center;
+    padding-right: 0; }
+    .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top {
+      display: block;
+      margin: auto auto -12px auto; }
+      .statistics__tab-content .statistics__tab-content-item .statistics__tab-content-item_top img {
+        margin-bottom: 20px; } }

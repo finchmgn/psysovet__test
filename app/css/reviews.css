@@ -1,3 +1,6 @@
+.reviews {
+  background-color: #fafafa; }
+
 .reviews__header {
   text-align: center; }
   .reviews__header span {
@@ -44,11 +47,22 @@
   margin-bottom: 15px; }
 
 .reviews__carousel-psyhologist-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bootom: 15px; }
+
+.reviews__carousel-psyhologist-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px; }
 
 .reviews__carousel-psyhologist-img {
-  width: 45px;
+  width: 45px !important;
   -webkit-border-radius: 50%;
           border-radius: 50%; }
 
@@ -59,6 +73,10 @@
   color: #cc3399; }
   .reviews__carousel-psyhologist-name:hover {
     color: #cc3399; }
+
+.reviews__carousel-psyhologist-status {
+  font-size: 25px;
+  color: #4caf50; }
 
 .reviews__carousel-psyhologist-position {
   color: #606060; }
@@ -71,3 +89,15 @@
   .reviews__carousel-psyhologist-rating span {
     font-size: 15px;
     color: #ffd961; }
+
+.reviews__link-to-all-reviews-block {
+  padding-bottom: 40px;
+  margin-top: 10px; }
+
+.reviews__link-to-all-reviews {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font-size: 18px; }
+  .reviews__link-to-all-reviews:hover {
+    text-decoration: none; }

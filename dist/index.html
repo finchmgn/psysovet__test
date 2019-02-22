@@ -6,8 +6,199 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/libs.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/statistics.css">
+    <link rel="stylesheet" type="text/css" href="css/reviews.css">
+    <link rel="stylesheet" type="text/css" href="css/psy-online.css">
+    <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
 </head>
 <body>
+    <header>
+        <div class="ps-container header__ps-container">
+            <a class="header__logo-link" href="index.html"><img class="header__logo-img" src="img/logo__whole_transparent.png" alt="PSYSOVET - Профессиональная психологическая помощь"/></a>
+        </div>
+    </header>
+    <section class="statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 order-xl-12 order-lg-12 statistics__col_without-padding">
+                    <div class="statistics__get-cons">
+                        <div class="statistics__get-cons-text">
+                            <p class="statistics__get-cons-header">Консультации психолога онлайн</p>
+                            <p class="statistics__get-cons-descrip">На Псисовет Вы получите <strong>полноценную консультацию психолога онлайн.</strong> Бесплатная психологическая помощь возможна в публичной переписке, в порядке очереди. Доступны платные консультации в которых Вы получите более быстрый ответ в приватном разделе. </p>
+                        </div>
+                        <div class="statistics__get-cons-form-block">
+                            <form class="statistics__get-cons-form">
+                                <fieldset>Психологи консультируют анонимно, онлайн, 24 часа в сутки!</fieldset>
+                                <textarea placeholder="Опишите пожалуйста, свой вопрос психологу более подробно. В том числе: имя, возраст, семейное положение..."></textarea>
+                                <button class="btn btn-success-light">Получите консультацию прямо сейчас</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 order-md-1 order-lg-1 align-self-end">
+                    <img class="statistics__img" src="img/statistics/statistics__man.png" alt="Консультация психолога онлайн" />
+                </div>
+            </div>
+        </div>
+        <div class="statistics__tabs-block">
+            <div class="statistics__tabs">
+                <div class="ps-container">
+                    <ul class="nav nav-tabs statistics__tabs-nav" id="statisticsTabs" role="tablist">
+                        <li class="nav-item statistics__tabs-item">
+                            <a class="nav-link statistics__tabs-link active" id="statistics__forum-tab" data-toggle="tab" href="#statistics__forum" role="tab" aria-controls="statistics__forum" aria-selected="true">Форум</a>
+                        </li>
+                        <li class="nav-item statistics__tabs-item">
+                            <a class="nav-link statistics__tabs-link" id="statistics__psych-tab" data-toggle="tab" href="#statistics__psych" role="tab" aria-controls="statistics__psych" aria-selected="false">Психологи</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ps-container">
+                <div class="tab-content" id="statisticsTabsContent">
+                    <div class="tab-pane fade show active" id="statistics__forum" role="tabpanel" aria-labelledby="statistics__forum-tab">
+                        <div class="statistics__tab-content">
+                            <!--элементы вкладок-->
+                            <div class="statistics__tab-content-item">
+                                <div class="statistics__tab-content-item_top">
+                                    <p>97 %</p>
+                                    <img src="img/statistics/positive-feedback.png" alt="97 % положительных отзывов"/>
+                                </div>
+                                <p>Положительных отзывов</p>
+                            </div>
+                            <div class="statistics__tab-content-item">
+                                <div class="statistics__tab-content-item_top">
+                                    <p>9 310</p>
+                                    <img src="img/statistics/consultations-held.png" alt="9 310 проведено консультаций"/>
+                                </div>
+                                <p>Проведено консультаций</p>
+                            </div>
+                            <div class="statistics__tab-content-item">
+                                <div class="statistics__tab-content-item_top">
+                                    <p>7 482</p>
+                                    <img src="img/statistics/people received.png" alt="7 482 человек получили консультацию"/>
+                                </div>
+                                <p>Человек получили консультацию</p>
+                            </div>
+                            <div class="statistics__tab-content-item">
+                               <div class="statistics__tab-content-item_top">
+                                    <p>785</p>
+                                    <img src="img/statistics/psyhologies.png" alt="785 психологов"/>
+                                </div>
+                                <p>Психологов</p>
+                            </div>
+                            <!--элементы вкладок. Конец-->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="statistics__psych" role="tabpanel" aria-labelledby="statistics__psych-tab">
+                        <div class="statistics__tab-content">
+                            <!--элементы вкладок-->
+                            <div class="statistics__tab-content-item statistics__tab-content-item-psyhologiest">
+                                <div class="statistics__tab-content-psyhologiest">
+                                    <img class="statistics__tab-content-psyhologiest-img" src="img/statistics/psyhologiest/morozova.jpg" alt="Лучший психолог России" />
+                                    <a class="statistics__tab-content-psyhologiest-descrip" href="#">Ольга Морозова<br/><span class="statistics__tab-content-psyhologiest-descrip-add">Стаж 11 лет</span></a>
+                                </div>
+                            </div>
+                            <div class="statistics__tab-content-item statistics__tab-content-item-psyhologiest">
+                                <div class="statistics__tab-content-psyhologiest">
+                                    <img class="statistics__tab-content-psyhologiest-img" src="img/statistics/psyhologiest/petrov.jpg" alt="Призер Международного конкурса психологов" />
+                                    <a class="statistics__tab-content-psyhologiest-descrip" href="#">Иван Петров<br/><span class="statistics__tab-content-psyhologiest-descrip-add">Стаж 9 лет</span></a>
+                                </div>
+                            </div>
+                            <div class="statistics__tab-content-item statistics__tab-content-item-psyhologiest">
+                                <div class="statistics__tab-content-psyhologiest">
+                                    <img class="statistics__tab-content-psyhologiest-img" src="img/statistics/psyhologiest/smirnova.jpg" alt="Лучший психологог Европы по версии Psyhologiest Magazine" />
+                                    <a class="statistics__tab-content-psyhologiest-descrip" href="#">Марина Смирнова<br/><span class="statistics__tab-content-psyhologiest-descrip-add">Стаж 6 лет</span></a>
+                                </div>
+                            </div>
+                            <div class="statistics__tab-content-item statistics__tab-content-item-psyhologiest">
+                                <div class="statistics__tab-content-psyhologiest">
+                                    <a class="statistics__tab-content-psyhologiest-descrip statistics__psyhologiest-link-to-all" href="#">Посмотреть всех</a>
+                                </div>
+                            </div>
+                            <!--элементы вкладокю Конец-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <p class="reviews__header ps-title center">Благодарность и отзывы о наших психологов от <span>725 830</span> человек</p>
+        <div class="reviews__carousel owl-carousel">
+            <div class="reviews__carousel-item">
+                <a class="reviews__carousel-client-name" href="#">Регина</a>
+                <p class="reviews__carousel-client-time">32 мин. назад</p>
+                <p class="reviews__carousel-client-review">Ольга Дорошенко отличный специалист! Она помогла мне решить мою проблему! Всегда отвечала практически сразу после задавания ей вопросов!...</p>
+                <div class="reviews__carousel-question-block row">
+                    <div class="col-xl-3 col-lg-12 col-12 reviews__carousel-question-col">
+                        <p class="reviews__carousel-question">Вопрос:</p>
+                    </div>
+                    <div class="col-xl-9 col-lg-12 col-12 reviews__carousel-question-col">
+                        <a class="reviews__carousel-client-question" href="#">Зависимость от отношений, которые приносят боль</a>
+                    </div>
+                </div>
+                <div class="reviews__carousel-psyhologist-block row">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-12 reviews__carousel-psyhologist-col">
+                        <a href="#"><img class="reviews__carousel-psyhologist-img" src="img/reviews/doroshenko.jpg" /></a>
+                        <span class="icon-dot-single reviews__carousel-psyhologist-status"></span>
+                    </div>
+                    <div class="col-xl-6 col-lg-5 col-md-5 col-sm-4 col-6">
+                        <p class="reviews__carousel-psyhologist-name-p"><a href="#" class="reviews__carousel-psyhologist-name">Ольга Дорошенко</a></p><p class="reviews__carousel-psyhologist-position">Психолог</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 col-md-4 col-sm-4 col-6">
+                        <p class="reviews__carousel-psyhologist-exp">Стаж <span class="reviews__carousel-psyhologist-exp-num">10 лет</span></p>
+                        <div class="reviews__carousel-psyhologist-rating">
+                            <span class="icon-star-full"></span>
+                            <span class="icon-star-full"></span>
+                            <span class="icon-star-full"></span>
+                            <span class="icon-star-full"></span>
+                            <span class="icon-star-full"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__link-to-all-reviews-block">
+            <a href="#" class="reviews__link-to-all-reviews">Все отзывы о наших психологах</a>
+        </div>
+    </section>
+    <section class="psy-online">
+        <div class="ps-container">
+            <div class="row psy-online__row">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-12 psy-online__col psy-online__col-online">
+                    <p class="ps-title psy-online__header">Психологи онлайн:</p>
+                    <div class="psy-online__online row" id="psyOnline">
+                        
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 psy-online__col psy-online__col-useful">
+                    <p class="ps-title psy-online__header">Будет полезно:</p>
+                    <ul class="psy-online__col-useful">
+                        <li class="psy-online__col-useful-item"><a class="psy-online__col-useful-link" href="#">Вы можете написать 1</a><br/>
+                        <span class="psy-online__col-useful-descrip">Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания</span></li>
+                        <li class="psy-online__col-useful-item"><a class="psy-online__col-useful-link" href="#">Вы можете написать 2</a><br/>
+                        <span class="psy-online__col-useful-descrip">Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания</span></li>
+                        <li class="psy-online__col-useful-item"><a class="psy-online__col-useful-link" href="#">Вы можете написать 3</a><br/>
+                        <span class="psy-online__col-useful-descrip">Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания Текст описания</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--    scripts    -->
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<script src="libs/owl.carousel/dist/owl.carousel.js"></script>
+
+
 
 </body>
 </html>

@@ -153,3 +153,68 @@
                 margin: auto auto -12px auto
                 img
                     margin-bottom: 20px
+
+
+/*  только для вкладки ПСИХОЛОГИ  */
+.statistics__tab-content-psyhologiest
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-content: center
+    align-items: center
+
+.statistics__tab-content-item-psyhologiest
+    padding-right: 20px !important
+
+.statistics__tab-content-psyhologiest-img
+    width: 80px
+    margin-right: 15px
+    border-radius: 50%
+    border: 1px solid #dddddd
+    order: 0
+    flex: 0 1 auto
+    align-self: center
+.statistics__tab-content-psyhologiest-descrip
+    font-weight: 600
+    color: #708cbb
+    order: 0
+    flex: 0 1 auto
+    align-self: center
+    text-align: left
+    transition: all 0.2s ease-in
+.statistics__tab-content-psyhologiest-descrip-add
+    font-weight: 300
+    color: #000000
+
+.statistics__psyhologiest-link-to-all
+    margin-top: 16px
+
+@media (min-width: 576px) and (max-width: 767px)
+    .statistics__tab-content-item-psyhologiest
+        width: 100% !important
+    .statistics__psyhologiest-link-to-all
+        margin-top: 0
+
+@media (max-width: 575px)
+    .statistics__tab-content-item-psyhologiest
+        padding-left: 20px
+    .statistics__psyhologiest-link-to-all
+        margin-top: 0
+
+@media (max-width: 991px)
+    .statistics__tab-content-psyhologiest
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: flex-start
+        align-content: center
+        align-items: flex-start
+        .statistics__tab-content-psyhologiest-img
+            order: 0
+            flex: 0 1 auto
+            align-self: center
+            .statistics__tab-content-psyhologiest-descrip
+                order: 0
+                flex: 0 1 auto
+                align-self: center

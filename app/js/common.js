@@ -19,24 +19,24 @@ $(document).ready(function(){
 });
 
 const psyOnline = [
-    {"id":"1", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"2", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"3", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"4", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"5", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"6", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"7", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"8", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"9", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"10", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    /*{"id":"11", "name": "Ольга Дорошенко", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"12", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"13", "name": "Оксана Переладова", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"14", "name": "Ольга Дорошенко", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"15", "name": "Александр Стемковский", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"16", "name": "Ольга Дорошенко", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"17", "name": "Оксана Переладова", "position": "Психолог", "img": "./../img/reviews/doroshenko.jpg", "status": "online"},
-    {"id":"18", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "./../img/reviews/doroshenko.jpg", "status": "online"}*/
+    {"id":"1", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"2", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"3", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"4", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"5", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"6", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"7", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"8", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"9", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"10", "name": "Оксана Переладова", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    /*{"id":"11", "name": "Ольга Дорошенко", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"12", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"13", "name": "Оксана Переладова", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"14", "name": "Ольга Дорошенко", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"15", "name": "Александр Стемковский", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"16", "name": "Ольга Дорошенко", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"17", "name": "Оксана Переладова", "position": "Психолог", "img": "img/reviews/doroshenko.jpg", "status": "online"},
+    {"id":"18", "name": "Александр Стемковский", "position": "Психоаналитический психотерапевт", "img": "img/reviews/doroshenko.jpg", "status": "online"}*/
 ]
 
 document.getElementById('psyOnline').innerHTML = `

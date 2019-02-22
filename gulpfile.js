@@ -85,6 +85,7 @@ gulp.task('buildcode', async function() {
     var buildfonts  = gulp.src(['app/fonts/**/*']).pipe(gulp.dest('dist/fonts'));
     var buildjs     = gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
     var buildhtml   = gulp.src('app/*.html').pipe(gulp.dest('dist'));
+    var buildlibs   = gulp.src('app/libs/**/*.*').pipe(gulp.dest('dist/libs'));
 });
 
 /*  Таск на сборку  */

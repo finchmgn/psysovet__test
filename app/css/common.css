@@ -67,6 +67,15 @@ body {
   font-size: 16px;
   color: #5e5e5e; }
 
+a {
+  color: #214e9b;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  a:hover {
+    text-decoration: underline; }
+
 .ps-title {
   font-size: 28px;
   color: #000000;

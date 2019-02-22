@@ -11,9 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/statistics.css">
     <link rel="stylesheet" type="text/css" href="css/reviews.css">
-    <link rel="stylesheet" type="text/css" href="libs/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="libs/slick-carousel/slick/slick-theme.css">
-    <script src="libs/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.theme.default.css">
 </head>
 <body>
     <header>
@@ -128,18 +127,31 @@
     </section>
     <section class="reviews">
         <p class="reviews__header ps-title center">Благодарность и отзывы о наших психологов от <span>725 830</span> человек</p>
-        <div class="reviews__carousel">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+        <div class="reviews__carousel owl-carousel">
+            <div class="reviews__carousel-item">
+                <a class="reviews__carousel-client-name" href="#">Регина</a>
+                <p class="reviews__carousel-client-time">32 мин. назад</p>
+                <p class="reviews__carousel-client-review">Ольга Дорошенко отличный специалист! Она помогла мне решить мою проблему! Всегда отвечала практически сразу после задавания ей вопросов!...</p>
+                <div class="reviews__carousel-question-block row">
+                    <div class="col-xl-3 col-lg-12 col-12 reviews__carousel-question-col">
+                        <p class="reviews__carousel-question">Вопрос:</p>
+                    </div>
+                    <div class="col-xl-9 col-lg-12 col-12 reviews__carousel-question-col">
+                        <a class="reviews__carousel-client-question" href="#">Зависимость от отношений, которые приносят боль</a>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </section>
 
+
+
 <!--    scripts    -->
 <script src="js/libs.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/common.js"></script>
+<script src="libs/owl.carousel/dist/owl.carousel.js"></script>
+
 
 </body>
 </html>
